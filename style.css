@@ -1,9 +1,30 @@
 .encart {
-  background-color: rgb(249, 244, 236);
+  background-color: rgb(211, 207, 200);
+}
+
+.corps {
+  background-color: rgb(26, 25, 25);
 }
 
 .content {
-  background-color: rgb(26, 25, 25);
+  background-color: rgb(249, 245, 245);
+}
+
+.image {
+  position: absolute;
+}
+
+.text-image {
+  background-color: black;
+  color: aliceblue;
+}
+
+.texte-barre {
+  text-decoration: line-through;
+}
+
+.prix {
+  position: absolute;
 }
 
 .flooter {
