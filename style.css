@@ -1,0 +1,17 @@
+.encart {
+  background-color: rgb(249, 244, 236);
+}
+
+.content {
+  background-color: rgb(26, 25, 25);
+}
+
+.flooter {
+  background-color: rgb(48, 43, 43);
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  padding-left: 5%;
+  color: aliceblue;
+  font-size: small;
+}
