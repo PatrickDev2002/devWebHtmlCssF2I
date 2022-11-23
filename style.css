@@ -1,5 +1,22 @@
+@font-face {
+  font-family: fontRegular;
+  src: url(./fonts/LiberationSans-Regular-webfont.ttf);
+}
+@font-face {
+  font-family: fontBold;
+  src: url(./fonts/LiberationSans-Bold-webfont.ttf);
+}
+
+body {
+  font-family: fontRegular;
+}
+
 .encart {
   background-color: rgb(211, 207, 200);
+}
+
+.bonjour {
+  display: flex;
 }
 
 .corps {
@@ -8,6 +25,8 @@
 
 .content {
   background-color: rgb(249, 245, 245);
+  padding-bottom: 10rem;
+  width: 80%;
 }
 
 .image {
@@ -15,24 +34,66 @@
 }
 
 .text-image {
+  position: absolute;
   background-color: black;
   color: aliceblue;
-}
-
-.texte-barre {
-  text-decoration: line-through;
+  right: 44%;
 }
 
 .prix {
   position: absolute;
+  left: 60%;
+  margin-top: 3%;
+  font-size: x-large;
+  font-family: fontBold !important;
 }
 
-.flooter {
+.prix-text-barre {
+  text-decoration: line-through;
+  margin-right: 1.5rem;
+}
+
+.prix-text {
+  color: orange;
+}
+
+.kard {
+  position: relative;
+  margin: 2rem;
+  margin-bottom: 4rem;
+}
+
+.text-card {
+  position: absolute;
+  top: 90%;
+  left: 17%;
+  text-transform: uppercase;
+  font-family: fontBold !important;
+}
+
+.footer {
+  position: relative;
   background-color: rgb(48, 43, 43);
   padding: 2rem;
   display: flex;
   justify-content: center;
-  padding-left: 5%;
   color: aliceblue;
   font-size: small;
+}
+
+.mur-de-berlin {
+  background-color: rgb(48, 43, 43);
+  width: 65%;
+  bottom: 10%;
+  position: absolute;
+  border-bottom: 1px white solid;
+}
+
+.contacts {
+  width: 100%;
+  background-color: rgb(48, 43, 43);
+  position: absolute;
+  display: flex;
+  top: 100%;
+  padding: 2rem 10rem 4rem 10rem;
 }
