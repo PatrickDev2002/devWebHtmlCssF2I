@@ -12,7 +12,7 @@ body {
 }
 
 .encart {
-  background-color: rgb(211, 207, 200);
+  background-color: rgb(254, 251, 246);
 }
 
 .bonjour {
@@ -130,4 +130,51 @@ body {
   height: 100%;
   bottom: 0%;
   padding: 6rem 0 2rem 0;
+}
+
+@media screen and (max-width: 770px) {
+  .encart {
+    background-color: rgb(254, 251, 246);
+    position: relative;
+    height: 35vh;
+  }
+
+  .bonjour {
+    display: grid;
+    justify-items: center;
+    justify-content: space-evenly;
+  }
+
+  .bonjour-mobile {
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    font-size: large;
+    padding: 1rem 0 1rem 0;
+  }
+
+  .lorem-mobile {
+    padding: 1rem 0 1rem 0;
+    font-size: large;
+  }
+
+  .contactez-mobile {
+    position: absolute;
+    bottom: 3%;
+    left: -12.5%;
+    width: 122%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0 1rem 0;
+  }
+
+  .contacts {
+    width: 100%;
+    background-color: rgb(48, 43, 43);
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly !important;
+    top: 100%;
+    padding: 2rem 10rem 4rem 10rem;
+  }
 }
